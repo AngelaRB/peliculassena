@@ -40,11 +40,11 @@ a {
 }
 
 .barra_navegacion {
-  background-color: #45080b;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   padding: 20px;
-
+  font-family: arcade;
 }
 
 .navegacion_principal {
@@ -52,6 +52,7 @@ a {
   justify-content: space-around;
   width: 50%;
   font-size: 20px;
+  
 
 }
 
@@ -72,6 +73,7 @@ a {
   gap: 1rem;
   padding: 2rem;
   flex: 1;
+  
 }
 
 /* APORTACION JHOSEF */
@@ -149,7 +151,7 @@ a {
 }
 
 .footer {
-
+  font-family: arcade;
     background-color: var(--color-secundario);
     color: white;
     text-align: center;
@@ -191,6 +193,7 @@ a {
 .titulo_encabezado h1{
   padding: 20px;
   color: #f4a8a1;
+  
 }
 
 .contenedor_buscador{
@@ -206,6 +209,7 @@ a {
 }
 
 .buscador{
+  
     justify-content: right;
     height: 30px;
     border-radius: 10px;
@@ -222,6 +226,7 @@ a {
     text-align: left;
     border-radius: 10px;
     color: white;
+    
 }
 
 .titulo-principal{
